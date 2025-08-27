@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Jão, Dono do projeto mais feio e hetero.jpg" alt="avatar do João" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou João</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Quero ser Cientista da Computação. Estou cursando atualmente o terceiro ano do Ensino Médio. Estudo sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
+            que já fiz!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Mistery Illustration -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Mistery.png" class="card-img-top" alt="Imagem ilustrativa do que se trata o jogo">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu jogo em HTML, JavaScript, e CSS</h5>
+                        <p class="card-text">Este jogo se trata de um jogo de lógica, escolhas e mistérios, você precisa descobrir quem é o assassino.
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Illustration -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Cards.png" class="card-img-top" alt="Imagem Ilustrativa de jogo">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogando com Flashcards: Conhecimentos Gerais</h5>
+                        <p class="card-text">Este projeto é um jogo interativo baseado em navegador que explora o
+                           seu conhecimento sobre qualquer assuntos e novidades da atualidade.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ColdPlay -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/ColdPlay.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Site de Jogos, promoções e novidades no mundo dos games.
+                        </h5>
+                        <p class="card-text">Neste projeto, foi feito um protótipo de um site que eu mesmo criei, chamdo de ColdPlay, onde o nome se compara
+                            com literalmente "Jogos Congelados", já que são jogos atemporais que sempre voltam, ou nunca saem da lista de vendas.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Mistery -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu Jogo: Descubra quem é o assassino!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir um jogo para descobrir um assassino entre algumas
+                        pessoas na mansão.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, com uma edição mais
+                        elaborada das perguntas e imagens que o site pode ter.</p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.</p>
+                        <p>O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando a exploração do cenário.</p>
+                    <img src="img/Mistery.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/JaoPogg007/trol">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Flashcard -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu Jogo: Cards do conhecimento</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
+                        simula uma experiência divertida e que incentiva seu conhecimento sobre coisas gerais, desde línguas estrangeiras, até perguntas de 
+                        programação.
+                    </p>
+                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como os cards, e as formas dos cards, deixando a estrutura
+                        melhor elaborada para os cards.
+                    </p>
+                    <p>O CSS ajusta as cores dos cards, do fundo, da página inteira, deixando uma estética mais personalizada
+                        e única em um jogo.</p>   
+                    <p>Os scripts JavaScript incluem módulos para gerar e animar os cards.</p>
+                    <p>O App.js ajuda na escolha das perguntas, apoiando na escolha delas, editando manualmente ou de forma aleatória.</p>
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=, initial-scale=1.0">
+                        <title>Document</title>
+                    </head>
+                    <body>
+                        
+                    </body>
+                    </html>.
+                    </p>
+                    <img src="img/Cards.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/JoaoPogg007/Alura-3">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ColdPlay -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma página de jogos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é um aplicativo que mostraos jogos da atualidade, das novidades, promoções e 
+                        informações desses jogos.</p>
+                    <p>O HTML ajuda a estruturar os jogos, colocando cada um em uma lista separada da froma que seu filtro
+                        escolhe.</p>
+                        <p>O site é um protótipo de algo provavelmente futuro, como se fosse uma Steam mais acessível, podendo
+                            ver promoções e novidades antecipadamente. 
+                        </p>
+                    <img src="img/ColdPlay.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/JoaoPogg007/Jao22">Ver código do Projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/JoaoPogg007">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por João Victor Monteiro Da Silva</p>
+        <p class="my-5 text-center">© Copyright 2025. Com apoio da AluraStart</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
